@@ -30,6 +30,8 @@ The **Fiber Tracing CLI Application** is a comprehensive tool designed to proces
 - **Volume** (μm³)
 - **Orientation** (degrees)
 - **Tortuosity**
+- **Polar Angle**
+- **Azimuthal Angle**
 - **Fiber Volume Fraction** (%)
 - **Fiber Classification Based on Orientation**
 
