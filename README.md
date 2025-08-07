@@ -621,9 +621,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Author**: Mr. Sweet
 - **Email**: hegde.g.chandrashekhar@gmail.com
-- **GitHub**: [https://github.com/yourusername/fiber_tracer](https://github.com/yourusername/fiber_tracer)
+- **GitHub**: [https://github.com/llMr-Sweetll/fiber_tracer_cli.git](https://github.com/llMr-Sweetll/fiber_tracer_cli.git)
 - **Quote**: "To infinity and beyond!" 🚀
 
 ---
 
-*Last Updated: January 2025 | Version 2.0.0*
+*Last Updated: Aug 2025 | Version 2.0.0*
