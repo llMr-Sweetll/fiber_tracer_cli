@@ -163,4 +163,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*For questions or support, contact: remember.me@example.com*
+*For questions or support, contact: hegde.g.chandrashekhar@gmail.com*
