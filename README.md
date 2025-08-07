@@ -1,7 +1,7 @@
 <pre align="center">
 ╔═══════════════════════════════════════╗
 ║        MR. SWEET'S FIBER TRACER       ║
-║      "To infinity and beyond!"        ║
+║       "To infinity and beyond!"       ║
 ╚═══════════════════════════════════════╝
 </pre>
 
