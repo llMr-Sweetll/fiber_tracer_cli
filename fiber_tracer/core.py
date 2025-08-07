@@ -28,8 +28,20 @@ from .analysis import (
     FiberProperties
 )
 from .visualization import FiberVisualizer
+from .utils import (
+    suppress_warnings,
+    setup_matplotlib_backend,
+    check_dependencies,
+    ProgressLogger,
+    format_time,
+    format_bytes
+)
 
 logger = logging.getLogger(__name__)
+
+# Suppress harmless warnings
+suppress_warnings()
+setup_matplotlib_backend()
 
 
 class FiberTracer:
