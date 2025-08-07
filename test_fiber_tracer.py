@@ -2,6 +2,9 @@
 """
 Test script for the Fiber Tracer application.
 This script creates synthetic test data and runs the fiber tracer pipeline.
+
+Author: Mr. Sweet
+Contact: hegde.g.chandrashekhar@gmail.com
 """
 
 import os
@@ -22,6 +25,7 @@ from fiber_tracer.config import (
     FiberAnalysisConfig, 
     VisualizationConfig
 )
+from fiber_tracer.ascii_art import animate_startup, show_completion
 
 logger = logging.getLogger(__name__)
 
@@ -110,6 +114,9 @@ def create_synthetic_fiber_data(output_dir: str, num_slices: int = 50,
 
 def test_basic_pipeline():
     """Test the basic fiber tracer pipeline with synthetic data."""
+    # Show test mode animation
+    animate_startup(test_mode=True)
+    
     print("\n" + "="*60)
     print("FIBER TRACER TEST - Basic Pipeline")
     print("="*60)

@@ -9,10 +9,10 @@ description = "Advanced 3D Analysis Tool for Fiber-Reinforced Polymer Composites
 readme = "README_V2.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Mr Sweet", email = "remember.me@example.com"}
+    {name = "Mr Sweet", email = "hegde.g.chandrashekhar@gmail.com"}
 ]
 maintainers = [
-    {name = "Mr Sweet", email = "remember.me@example.com"}
+    {name = "Mr Sweet", email = "hegde.g.chandrashekhar@gmail.com"}
 ]
 keywords = [
     "fiber analysis",

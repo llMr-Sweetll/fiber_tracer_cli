@@ -36,6 +36,7 @@ from .utils import (
     format_time,
     format_bytes
 )
+from .ascii_art import animate_startup, show_completion
 
 logger = logging.getLogger(__name__)
 

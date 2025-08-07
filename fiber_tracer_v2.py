@@ -7,7 +7,8 @@ This script provides a command-line interface to the fiber tracer package
 for processing X-ray CT images of fiber-reinforced polymer composites.
 
 Author: Mr Sweet
-Date: Updated version
+Contact: hegde.g.chandrashekhar@gmail.com
+Date: 8/7/2025
 """
 
 import argparse
@@ -20,6 +21,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from fiber_tracer import FiberTracer, Config
 from fiber_tracer.core import run_from_args
+from fiber_tracer.ascii_art import animate_startup, show_completion, buzz_lightyear_mode
 
 
 def parse_arguments():
@@ -89,12 +91,24 @@ Examples:
                         choices=['adaptive', 'otsu', 'watershed'],
                         help='Segmentation method (default: adaptive)')
     
+    # Easter egg
+    parser.add_argument('--buzz', action='store_true',
+                        help=argparse.SUPPRESS)  # Hidden easter egg
+    
     return parser.parse_args()
 
 
 def main():
     """Main function."""
     args = parse_arguments()
+    
+    # Check for Easter egg
+    if hasattr(args, 'buzz') and args.buzz:
+        buzz_lightyear_mode()
+        sys.exit(0)
+    
+    # Show startup animation
+    animate_startup()
     
     # Check if using configuration file
     if args.config:
@@ -126,6 +140,9 @@ def main():
         
         # Run from command-line arguments
         success = run_from_args(args)
+    
+    # Show completion message
+    show_completion(success=success)
     
     # Exit with appropriate code
     sys.exit(0 if success else 1)
